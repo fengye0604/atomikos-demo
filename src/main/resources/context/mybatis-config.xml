@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+<mappers>
+<!--    &lt;!&ndash; 通过mapper元素的resource属性可以指定相对于类路径的Mapper.xml文件 &ndash;&gt;
+    <mapper resource="com.xy.daodev.TransactionTestDao.xml" />
+    &lt;!&ndash; 通过mapper元素的class属性可以指定Mapper接口进行注册 &ndash;&gt;
+    <mapper class="com.springmybatis.system.dao.UserDao" />
+    &lt;!&ndash; 通过package元素将会把指定包下面的所有Mapper接口进行注册 &ndash;&gt;
+    <package name="com.springmybatis.system.dao.transaction" />-->
+</mappers>
+
+</configuration>
