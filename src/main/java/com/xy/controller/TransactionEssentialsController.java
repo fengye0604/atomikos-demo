@@ -25,5 +25,14 @@ public class TransactionEssentialsController {
     public ResponseEntity addUser(@PathVariable("username") String username){
         Object o = jtaService.addUser(username);
         return ResponseEntity.ok().body(o);
+
+    }
+
+
+    @RequestMapping("test/{username}")
+    public ResponseEntity test(@PathVariable("username") String username){
+        username += "，你好呀！";
+        return ResponseEntity.ok().body(username);
+
     }
 }
