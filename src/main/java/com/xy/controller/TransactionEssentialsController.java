@@ -25,7 +25,6 @@ public class TransactionEssentialsController {
     public ResponseEntity addUser(@PathVariable("username") String username){
         Object o = jtaService.addUser(username);
         return ResponseEntity.ok().body(o);
-
     }
 
 
