@@ -23,11 +23,14 @@ import java.util.UUID;
  */
 public class TransactionEssentialsTest {
     private static AtomikosDataSourceBean createAtomikosDataSourceBeanMysql(String dbName) {
+        //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
         // 连接池基本属性
         Properties p = new Properties();
         p.setProperty("url", "jdbc:mysql://localhost:3306/" + dbName);
         p.setProperty("user", "root");
         p.setProperty("password", "root");
+
+
 
         // 使用AtomikosDataSourceBean封装com.mysql.jdbc.jdbc2.optional.MysqlXADataSource
         AtomikosDataSourceBean ds = new AtomikosDataSourceBean();
