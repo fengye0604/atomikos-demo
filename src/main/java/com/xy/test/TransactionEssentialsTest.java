@@ -22,7 +22,7 @@ import java.util.UUID;
  * @version:1.0
  */
 public class TransactionEssentialsTest {
-    private static AtomikosDataSourceBean createAtomikosDataSourceBean(String dbName) {
+    private static AtomikosDataSourceBean createAtomikosDataSourceBeanMysql(String dbName) {
         // 连接池基本属性
         Properties p = new Properties();
         p.setProperty("url", "jdbc:mysql://localhost:3306/" + dbName);
